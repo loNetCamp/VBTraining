@@ -7,6 +7,10 @@
         Dim menor = 0.0, mayor = 0.0, promedio = 0.0, contagua = 0.0
         Dim agua(x + 1) As Double
 
+        Dim data As New Dictionary(Of Integer, Integer) From {
+            {1, 10}
+        }
+
         Do
 
             Console.Write("Introduzca día:")
