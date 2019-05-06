@@ -13,7 +13,7 @@
             acu += num
             i += 1
         End While
-        Console.Write("El promedio de los 5 números es {0}", acu / 5)
+        Console.Write($"El promedio de los 5 números es {acu / 5}")
 
 
     End Sub

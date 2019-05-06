@@ -8,9 +8,18 @@
         Console.WriteLine("Escribe tu edad")
         Dim texto = Console.ReadLine()
 
-        Dim edad = Convert.ToInt32(texto)
+        'Dim edad = CInt(texto)
+        'Integer.Parse(texto)
 
-        Console.WriteLine("Te llamas " & nombre & " y tienes " & edad & " años")
+        Dim edad As Integer
+        If (Integer.TryParse(texto, edad)) Then
+            Console.WriteLine("Te llamas " & nombre & " y tienes " & edad & " años")
+        End If
+
+
+        'Dim edad = Convert.ToInt32(texto)
+
+
 
     End Sub
 

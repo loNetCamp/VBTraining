@@ -7,7 +7,7 @@
         Console.Write("Introduzca un número:")
         num = CDbl(Console.ReadLine())
 
-        While (num < 1)
+        While (num < 0)
 
             Console.Write("ERROR.Reingrese número:")
             num = CDbl(Console.ReadLine())
