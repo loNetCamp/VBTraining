@@ -7,15 +7,15 @@
         Console.Write("Número:")
         num = CInt(Console.ReadLine())
 
-        'For i As Integer = 0 To num - 1
-        '    suma = suma + i
+        For i As Integer = 0 To num - 1
+            suma = suma + i
 
 
-        'Next
+        Next
 
-        'Console.Write("La suma de los números que anteceden a el {0} es {1}", num, suma)
+        Console.Write("La suma de los números que anteceden a el {0} es {1}", num, suma)
 
-        Console.WriteLine($"La suma de los números que anteceden a el {num} es {Sumar(num - 1)}")
+        'Console.WriteLine($"La suma de los números que anteceden a el {num} es {Sumar(nu'm - 1)}")
 
     End Sub
 

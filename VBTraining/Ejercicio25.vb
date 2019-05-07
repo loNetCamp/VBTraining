@@ -1,13 +1,13 @@
 ﻿Module Ejercicio25
 
     Sub Main()
-        Dim lado(3) As Double
+        Dim lado(2) As Double
         Dim mayor = 0.0, sumar = 0.0
         Dim auxi = 0, flag = 0
 
         For i As Integer = 0 To lado.Length - 1
 
-            Console.Write("Lado 0}:", i + 1)
+            Console.Write("Lado {0}:", i)
             lado(i) = CDbl(Console.ReadLine())
 
             If (lado(i) > mayor) Then
