@@ -34,6 +34,7 @@
                     End If
                 Next
             Next
+
             If (flag = 3) Then
                 Console.Write(" ---> Equilatero")
             Else

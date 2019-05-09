@@ -29,6 +29,8 @@ Module Ejercicio24
         Dim nums = New List(Of Integer)() From {1, 2, -3, 4, -5, 6, 7, -8, 9}
 
         may0 = nums.Where(Function(i) i > 0).Sum()
+
+        men0 = Multiply(nums.Where(Function(i) i < 0))
         men0 = nums.Where(Function(i) i < 0).Multiply()
 
         If (men0 = 1) Then ' En Then caso de que se ingrese todos (+)
